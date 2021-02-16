@@ -2,6 +2,7 @@
   "name": "rescript-project-template",
   "version": "0.0.1",
   "scripts": {
+    "typecheck": "tsc",
     "build": "bsb -make-world",
     "clean": "bsb -clean-world",
     "start": "bsb -make-world -w"
@@ -12,6 +13,11 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "*"
+    "bs-platform": "*",
+    "gentype": "^3.43.0",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "polished": "^4.1.0"
   }
 }

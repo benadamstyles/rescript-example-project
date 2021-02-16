@@ -16,4 +16,7 @@
   "warnings": {
     "error" : "+101"
   },
+  "gentypeconfig": {
+    "language": "typescript"
+  }
 }
